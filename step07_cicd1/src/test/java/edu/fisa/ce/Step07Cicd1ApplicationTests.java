@@ -10,4 +10,12 @@ class Step07Cicd1ApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	public void testAddition() {
+		int result = 2 + 3;
+		System.out.println("실행");
+		assertEquals(5, result); // 성공: 5 == 5
+		System.out.println("성공");
+	}
+
 }
