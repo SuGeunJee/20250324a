@@ -31,3 +31,4 @@ testdocker
 testdocker2
 testdocker3
 testdocker4
+testtrivy
