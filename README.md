@@ -23,3 +23,4 @@ testsonar
 testsonar2
 test
 test
+testsonar
