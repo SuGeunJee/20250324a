@@ -34,3 +34,4 @@ testdocker4
 testtrivy
 testharbor
 testharbor2
+testfull
