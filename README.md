@@ -38,3 +38,4 @@ testfull
 testBranchprotection
 testBranchprotection2
 testBranchprotection3
+testfull
