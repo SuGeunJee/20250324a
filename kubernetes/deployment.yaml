@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest
+        image: harbor.example.com/library/testapp:64
         ports:
         - containerPort: 80
