@@ -4,7 +4,7 @@ FROM eclipse-temurin:17-jre-alpine
 WORKDIR /app
 
 # JAR 파일 복사 (빌드 컨텍스트의 target 디렉토리에서)
-COPY target/your-application.jar /app/test.jar
+COPY step07_cicd1-0.0.1-SNAPSHOT.jar /app/test.jar
 
 # 포트 노출 (선택 사항)
 EXPOSE 8081
