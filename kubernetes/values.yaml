@@ -1,11 +1,27 @@
-# Default values for test-app
+# Default values for spring-app
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: 10.8.0.51/library/testapp
   tag: latest
   pullPolicy: Always
+
+# 시크릿 이름만 참조 (실제 시크릿은 별도로 생성)
+imagePullSecrets:
+  - name: harbor-registry
 
 service:
   type: ClusterIP
   port: 80
+  targetPort: 8080
+
+resources:
+  limits:
+    cpu: 500m
+    memory: 512Mi
+  requests:
+    cpu: 200m
+    memory: 256Mi
+
+# 별도의 시크릿 생성 플래그
+createSecret: false
