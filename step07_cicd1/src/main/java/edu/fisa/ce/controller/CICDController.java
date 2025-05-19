@@ -9,6 +9,6 @@ public class CICDController {
 	@GetMapping("fisa1")
 	public String reqRes() {
 		System.out.println("reqRes() *********");
-		return "요청 응답 성공";
+		return "ArgoCD 테스트 성공!!";
 	}
 }
